@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <form>
+            <h1>Customize Your Pizza</h1>
+            <div class="form-columns">
+                <div class="form-column">
+                    <h2>Size</h2>
+                    <label>
+                        <input class="pristine" type="radio" name="size" value="small"> <span>Small <small>(10.00)</small></span>
+                    </label>
+                    <label>
+                        <input class="pristine" type="radio" name="size" value="medium"> <span>Medium <small>(15.00)</small></span>
+                    </label>
+                    <label>
+                        <input class="pristine" type="radio" name="size" value="large"> <span>Large <small>(20.00)</small></span>
+                    </label>
+                </div>
+                <div class="form-column">
+                    <h2>Toppings</h2>
+                    <label>
+                        <input class="pristine" type="checkbox" name="toppings" value="ham"> <span>Ham <small>(0.50)</small></span>
+                    </label>
+                    <label>
+                        <input class="pristine" type="checkbox" name="toppings" value="pepperoni"> <span>Pepperoni <small>(0.50)</small></span>
+                    </label>
+                    <label>
+                        <input class="pristine" type="checkbox" name="toppings" value="bacon"> <span>Bacon <small>(0.50)</small></span>
+                    </label>
+                </div>
+            </div>
+            <div class="screen">
+                <span class="screen-value">0.00</span>
+            </div>
+            <button type="reset">
+                <span tabindex="-1">Order</span>
+            </button>
+        </form>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
